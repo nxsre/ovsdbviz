@@ -3,7 +3,7 @@ package graphviz
 import (
 	"fmt"
 	"github.com/awalterschulze/gographviz"
-	"github.com/awalterschulze/gographviz/parser"
+	"github.com/awalterschulze/gographviz/internal/parser"
 )
 
 const DiGraphTemplate = "digraph %s { }"
